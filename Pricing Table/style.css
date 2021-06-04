@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Arimo-Bold';
+    src: url(./fonts/Arimo-Bold.ttf);
+	
+}
+
+
+html {
+	font-family: 'Arimo-Bold', sans-serif;
+	font-size: 16px;
+	color: #484848;
+	text-transform: uppercase;
+}
+.site {
+	width: 1200px;
+	margin: 0 auto;
+}
+section {
+	background-color: #3a4965;
+	padding: 2% 0;
+}
+.tab {
+	margin: 0 auto;
+	width: 95%;
+	background: #fafafa;
+	border-spacing: 0;
+}
+.tab a {
+	display: inline-block;
+	text-align: center;
+	line-height: 2.7;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 6px;
+	width: 70%;
+	height: 40px;
+}
+.tab td {
+	width: 25%;
+	height: 70px;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 1px solid #d7d7d7;
+}
+.tab td:first-of-type > span {
+	position: relative;
+}
+.row3,
+.row5,
+.row7,
+.row9 {
+	background-color: #f2f2f2;
+}
+.row4,
+.row6,
+.row8 {
+	background-color: #e3e3e3;
+}
+.tab tr > td img {
+	position: relative;
+	top: 4px;
+	left: -4px;
+}
+.standard,
+.ultimate,
+.premium {
+	color: white;
+	font-size: 1.3rem;
+}
+.row1 .choose-your {
+	font-size: 1.125rem;
+}
+.row1 .pricing-plan {
+	font-size: 1.875rem;
+}
+.row2 td > span:nth-child(1) {
+	font-size: 3.75rem;
+	display: inline-block;
+}
+.row2 .cost {
+	display: inline-block;
+	text-align: left;
+}
+.row2 .cost span:nth-child(1) {
+	display: block;
+	font-size: 1.5rem;
+}
+.row2 .cost span:nth-child(2) {
+	display: block;
+	font-size: 1.125rem;
+	font-weight: normal;
+}
+.standard {
+	background-color: #89c331;
+}
+.ultimate {
+	background-color: #f04a56;
+	font-size: 1.875rem;
+}
+.premium {
+	background-color: #20807c;
+}
+.row9 td:nth-child(1) a {
+	background-color: #484848;
+	border-bottom: 6px solid #404040;
+}
+.row9 td:nth-child(2) a {
+	background-color: #89c331;
+	border-bottom: 6px solid #79b027;
+}
+.row9 td:nth-child(3) a {
+	background-color: #f04a56;
+	border-bottom: 6px solid #df3a46;
+}
+.row9 td:nth-child(4) a {
+	background-color: #20807c;
+	border-bottom: 6px solid #16736f;
+}
+.row9 td:first-of-type {
+	background-color: #dddddd;
+}
